@@ -41,6 +41,7 @@ Arguments:
 * `random_seed` - optional, default 42.
 * `af_min` - lower threshold for filtering by AF, optional. If not specified, filtering by AF is not applied.
 * `af_max` - higher threshold for filtering by AF, optional. If not specified, filtering by AF is not applied.
+
 Example:
 ```
 python vcf2reads.py --genome $GENOME \
