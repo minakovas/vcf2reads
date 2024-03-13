@@ -14,7 +14,7 @@ File with genomic varians in vcf format. Example:
 ##contig=<ID=1,length=1002>
 ##INFO=<ID=PR,Number=0,Type=Flag,Description="Provisional reference allele, may not be based on real reference genome">
 ##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
-#CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  1_1000000000    1_1000000001
+#CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  sample1    sample2
 1       1000    rs0     C       .       .       .       PR      GT      ./.     0/0
 1       1001    rs10    A       G       .       .       PR      GT      0/0     0/1
 ```
