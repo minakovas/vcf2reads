@@ -29,7 +29,7 @@ TCATCATCCAGCTCCAGCTGCTGTCGTTTAAATTCACTGTATTCTCTCTGATACCTGTGA
 ```
 ## Usage
 ```
-vcf2fastq.py [-h] --genome GENOME --vcf VCF --read_len READ_LEN --N N --out OUT --sample SAMPLE [--random_seed RANDOM_SEED] [--af_min AF_MIN] [--af_max AF_MAX]
+vcf2reads.py [-h] --genome GENOME --vcf VCF --read_len READ_LEN --N N --out OUT --sample SAMPLE [--random_seed RANDOM_SEED] [--af_min AF_MIN] [--af_max AF_MAX]
 ```
 Arguments:
 * `genome` - path to <genome.fasta>, required.
