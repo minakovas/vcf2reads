@@ -44,7 +44,7 @@ Arguments:
 
 Example:
 ```
-python vcf2reads.py --genome $GENOME \
+python vcf2reads.py --genome hg38.fasta \
 --vcf variants.vcf \
 --sample SAMPLE1 \
 --read_len 150 \
