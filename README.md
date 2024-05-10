@@ -1,7 +1,7 @@
 # vcf2reads
 This is a CLI tool for generating reads in fasta format based on variants from vcf file and reference genome.
 
-It was written in February 2023 as a test assignment for the position of a bioinformatics specialist. It gets a reference genome and a vcf file with genomic variants as input and generates a new fasta file with random fragments of the genome of a given length, where the positions containing genomic variants are replaced with alleles from the vcf file.  
+It gets a reference genome and a vcf file with genomic variants as input and generates a new fasta file with random fragments of the genome of a given length, where the positions containing genomic variants are replaced with alleles from the vcf file.  
 
 At the moment it supports SNPs and indels and filtering variants by allele frequency (AF). Only python standard library is used.
 
